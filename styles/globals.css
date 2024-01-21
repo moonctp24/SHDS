@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -14,3 +13,133 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.mainContentsLayout {
+  margin: 0 auto;
+  background: #000;
+}
+.mainPageContentsArea {
+  width: 400px;
+  min-height: 800px;
+  margin: 0 auto;
+  position: relative;
+  background: #fff;
+}
+
+/* ----- button ----- */
+button {
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  cursor: pointer;
+  outline: 0;
+}
+button {
+  width: 100%;
+  height: 70px;
+  border-radius: 8px;
+  background: #00c1a6;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 2px 2px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: bold;
+  font-family: "Roboto", "Noto Sans KR", dotum, "돋움", sans-serif;
+  box-sizing: border-box;
+  line-height: 15px;
+  font-weight: 500;
+  -webkit-transition: background-color 0.05s ease-in-out;
+  -moz-transition: background-color 0.05s ease-in-out;
+  -o-transition: background-color 0.05s ease-in-out;
+  transition: background-color 0.05s ease-in-out;
+  vertical-align: middle;
+}
+.btn_gray {
+  background: #999999;
+  border: 1px solid #cccccc;
+}
+.btn_white {
+  background: #ffffff;
+  border: 2px solid #00c1a6;
+  color: #000;
+  font-weight: 700;
+}
+.btn_gray:hover {
+  background: #999999;
+  border-color: #999;
+}
+.btn_white:hover {
+  background: #00c1a6;
+  border: 2px solid #00c1a6;
+  color: #fff;
+}
+/* ----- button ----- */
+
+/* ----- Space | Empty | Area | Padding ----- */
+.space10 {
+  width: 100%;
+  height: 10px;
+}
+.space20 {
+  width: 100%;
+  height: 20px;
+}
+.space30 {
+  width: 100%;
+  height: 30px;
+}
+.space40 {
+  width: 100%;
+  height: 40px;
+}
+.space60 {
+  width: 100%;
+  height: 60px;
+}
+.space100 {
+  width: 100%;
+  height: 100px;
+}
+
+.padding5 {
+  padding: 5px;
+}
+.padding10 {
+  padding: 10px;
+}
+.padding20 {
+  padding: 20px;
+}
+.padding30 {
+  padding: 30px;
+}
+.padding40 {
+  padding: 40px;
+}
+.padding50 {
+  padding: 50px;
+}
+.padding60 {
+  padding: 60px;
+}
+.padding70 {
+  padding: 70px;
+}
+.padding80 {
+  padding: 80px;
+}
+.padding90 {
+  padding: 90px;
+}
+.padding100 {
+  padding: 100px;
+}
+
+.marginTop30 {
+  margin-top: 30px;
+}
+/* ----- Space | Empty | Area | Padding ----- */

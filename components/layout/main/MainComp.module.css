@@ -1,0 +1,13 @@
+.mainPageButtonList {
+  width: 290px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttonLayout {
+  margin: 26px 0 26px 0;
+  position: relative;
+  height: 70px;
+}
